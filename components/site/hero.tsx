@@ -142,7 +142,7 @@ export function Hero() {
             />
             <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-surface shadow-[0_20px_60px_rgb(46_42_38_/_0.18)] sm:h-80 sm:w-80">
               <Image
-                src="/profile.png"
+                src="profilejas.png"
                 alt={`Portrait of ${profile.name}`}
                 fill
                 priority

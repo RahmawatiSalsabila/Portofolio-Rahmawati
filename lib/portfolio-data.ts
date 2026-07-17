@@ -4,7 +4,7 @@ export const profile = {
   shortIntro:
     'I design and build elegant, human-centered web experiences — blending clean engineering with a deep passion for education and technology.',
   email: 'rahmawatisalsabila84@gmail.com',
-  github: 'https://github.com/salsabila-dev',
+  github: 'https://github.com/RahmawatiSalsabila',
   linkedin: 'https://linkedin.com/in/rahmawati-salsabila-0271b9311',
 }
 
@@ -78,40 +78,40 @@ export const projects: Project[] = [
   {
     title: 'TOEFL Arena',
     description:
-      'A gamified TOEFL preparation platform with adaptive quizzes, live scoring, and a competitive leaderboard that makes English practice genuinely fun.',
-    image: '/projects/toefl-arena.png',
-    tech: ['Laravel', 'MySQL', 'Tailwind CSS', 'JavaScript'],
-    role: 'Full-Stack Developer',
-    github: 'https://github.com/salsabila-dev/toefl-arena',
+      'A Roblox-based educational game designed to help students prepare for the TOEFL exam through interactive gameplay, developed using the Game Development Life Cycle (GDLC) methodology.',
+    image: '/projects/Roblox.png',
+    tech: ['Roblox Studio', 'Lua', 'GDLC Methodology'],
+    role: 'Game Developer',
+    github: 'https://github.com/RahmawatiSalsabila/toefl-arena',
     demo: 'https://toefl-arena.example.com',
   },
   {
     title: 'SiRekap',
     description:
-      'A data recap and reporting system that streamlines record-keeping with clean dashboards, exportable reports, and role-based access.',
-    image: '/projects/sirekap.png',
-    tech: ['Laravel', 'MySQL', 'Bootstrap'],
-    role: 'Backend Developer',
-    github: 'https://github.com/salsabila-dev/sirekap',
+      'A personal finance management web application for managing income, expenses, budgeting, and cash flow. Contributed to the development of the Home dashboard and Navigation system, integrating frontend interfaces with backend functionality for a seamless user experience.',
+    image: '/projects/Sirekap.png',
+    tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
+    role: 'Frontend & Backend Developer',
+    github: 'https://github.com/RahmawatiSalsabila/sirekap',
   },
   {
     title: 'WikiKamus Redesign',
     description:
       'A complete UX redesign of an online dictionary — faster search, cleaner typography, and a reading experience that feels calm and focused.',
-    image: '/projects/wikikamus.png',
+    image: '/projects/WikiKamus.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'Figma'],
     role: 'UI/UX & Frontend',
-    github: 'https://github.com/salsabila-dev/wikikamus',
+    github: 'https://github.com/RahmawatiSalsabila/wikikamus',
     demo: 'https://wikikamus.example.com',
   },
   {
     title: 'Matika Ceria',
     description:
       'A playful math learning game for children, turning arithmetic drills into colorful, rewarding challenges that keep young learners engaged.',
-    image: '/projects/matika-ceria.png',
+    image: '/projects/MatikaCeria.png',
     tech: ['PHP', 'JavaScript', 'MySQL'],
     role: 'Full-Stack Developer',
-    github: 'https://github.com/salsabila-dev/matika-ceria',
+    github: 'https://github.com/RahmawatiSalsabila/matika-ceria',
     demo: 'https://matika-ceria.example.com',
   },
   {
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     image: '/projects/booking-mua.png',
     tech: ['Laravel', 'MySQL', 'Tailwind CSS'],
     role: 'Full-Stack Developer',
-    github: 'https://github.com/salsabila-dev/booking-mua',
+    github: 'https://github.com/RahmawatiSalsabila/booking-mua',
   },
   {
     title: 'HaveFunKids',
@@ -130,7 +130,7 @@ export const projects: Project[] = [
     image: '/projects/havefunkids.png',
     tech: ['PHP', 'Bootstrap', 'MySQL'],
     role: 'Full-Stack Developer',
-    github: 'https://github.com/salsabila-dev/havefunkids',
+    github: 'https://github.com/RahmawatiSalsabila/havefunkids',
     demo: 'https://havefunkids.example.com',
   },
 ]
