@@ -108,7 +108,7 @@ export const projects: Project[] = [
     title: 'Matika Ceria',
     description:
       'A playful math learning game for children, turning arithmetic drills into colorful, rewarding challenges that keep young learners engaged.',
-    image: '/projects/MatikaCeria.png',
+    image: '/projects/homematika.png',
     tech: ['PHP', 'JavaScript', 'MySQL'],
     role: 'Full-Stack Developer',
     github: 'https://github.com/RahmawatiSalsabila/matika-ceria',
