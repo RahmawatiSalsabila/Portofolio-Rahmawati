@@ -6,7 +6,7 @@ import { ArrowUpRight, UserRound } from 'lucide-react'
 import { projects } from '@/lib/portfolio-data'
 import { SectionHeading } from '@/components/site/section-heading'
 import { Stagger, StaggerItem } from '@/components/site/reveal'
-import { GithubIcon } from '@/components/site/brand-icons'
+import { GithubIcon, FigmaIcon } from '@/components/site/brand-icons'
 
 export function Projects() {
   return (
@@ -78,6 +78,17 @@ export function Projects() {
                       >
                         <GithubIcon className="h-4 w-4" />
                         Code
+                      </a>
+                    ) : null}
+                    {project.figma ? (
+                      <a
+                        href={project.figma}
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className="inline-flex items-center gap-2 rounded-xl border border-border bg-background/60 px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:border-[#A259FF] hover:text-[#A259FF]"
+                      >
+                        <FigmaIcon className="h-4 w-4" />
+                        Figma
                       </a>
                     ) : null}
                     {project.demo ? (

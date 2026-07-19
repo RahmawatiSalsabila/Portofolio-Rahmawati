@@ -72,6 +72,7 @@ export type Project = {
   role: string
   github?: string
   demo?: string
+  figma?: string
 }
 
 export const projects: Project[] = [
@@ -80,7 +81,7 @@ export const projects: Project[] = [
     description:
       'A Roblox-based educational game designed to help students prepare for the TOEFL exam through interactive gameplay, developed using the Game Development Life Cycle (GDLC) methodology.',
     image: '/projects/Roblox.png',
-    tech: ['Roblox Studio', 'Lua', 'GDLC Methodology'],
+    tech: ['Roblox Studio', 'Lua', 'Canva'],
     role: 'Game Developer',
     github: 'https://github.com/RahmawatiSalsabila/toefl-arena',
     demo: 'https://toefl-arena.example.com',
@@ -99,40 +100,40 @@ export const projects: Project[] = [
     description:
       'A complete UX redesign of an online dictionary — faster search, cleaner typography, and a reading experience that feels calm and focused.',
     image: '/projects/WikiKamus.png',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Figma'],
+    tech: ['Canva', 'Figma'],
     role: 'UI/UX & Frontend',
-    github: 'https://github.com/RahmawatiSalsabila/wikikamus',
-    demo: 'https://wikikamus.example.com',
+    figma: 'https://www.figma.com/design/S3xrZeEAWunGNlHzreaFq2/IMK-KELOMPOK-6?node-id=46-2&t=ndJxaxr2MEI2Vbo8-1',
+    demo: 'https://www.figma.com/proto/S3xrZeEAWunGNlHzreaFq2/IMK-KELOMPOK-6?node-id=570-3936&p=f&viewport=357%2C-1391%2C0.35&t=EzE5hwerWgFz7MiP-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=570%3A3919&page-id=46%3A2',
   },
   {
     title: 'Matika Ceria',
     description:
       'A playful math learning game for children, turning arithmetic drills into colorful, rewarding challenges that keep young learners engaged.',
-    image: '/projects/homematika.png',
+    image: '/projects/matika.png',
     tech: ['PHP', 'JavaScript', 'MySQL'],
     role: 'Full-Stack Developer',
     github: 'https://github.com/RahmawatiSalsabila/matika-ceria',
     demo: 'https://matika-ceria.example.com',
   },
   {
-    title: 'Booking MUA',
-    description:
-      'A makeup artist booking platform with a live appointment calendar, artist profiles, and a smooth service-selection flow.',
-    image: '/projects/booking-mua.png',
-    tech: ['Laravel', 'MySQL', 'Tailwind CSS'],
-    role: 'Full-Stack Developer',
-    github: 'https://github.com/RahmawatiSalsabila/booking-mua',
+   title: 'ArtistryHub',
+   description:
+     'A booking and discovery platform connecting makeup artists with clients, featuring portfolio browsing, availability scheduling, and seamless appointment booking.',
+   image: '/projects/artistry.png',
+   tech: ['Figma'],
+   role: 'UI/UX Designer',
+   figma: 'https://www.figma.com/file/3N22KSNlERlsSaqZJxDBE4/ArtistryHub?node-id=0-1&t=FM4IUUGOTgURejUY-1',
+   demo: 'https://www.figma.com/proto/3N22KSNlERlsSaqZJxDBE4/ArtistryHub?node-id=1-324&p=f&viewport=6931%2C-1355%2C0.48&t=jd48t2OCkNbk9W3s-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A1716&show-proto-sidebar=1&page-id=0%3A1',
   },
   {
-    title: 'HaveFunKids',
-    description:
-      'An interactive learning and activities platform for kids, packed with lessons and games designed around joyful, exploratory learning.',
-    image: '/projects/havefunkids.png',
-    tech: ['PHP', 'Bootstrap', 'MySQL'],
-    role: 'Full-Stack Developer',
-    github: 'https://github.com/RahmawatiSalsabila/havefunkids',
-    demo: 'https://havefunkids.example.com',
-  },
+   title: 'Evidence Data Hunt',
+   description:
+     'Developed a 2D educational game using Unity and C# to support statistics learning for 9th-grade students. The game combines interactive gameplay, learning materials, instructional videos, and quizzes to improve students’ understanding of mean, median, and mode through an engaging pixel-art experience.',
+   image: '/projects/unity.png',
+   tech: ['Unity', 'C#', 'Canva'],
+   role: 'Game Developer & Game Designer',
+   github: 'https://github.com/RahmawatiSalsabila/Evidance-Data-Hunt',
+}
 ]
 
 export type Research = {

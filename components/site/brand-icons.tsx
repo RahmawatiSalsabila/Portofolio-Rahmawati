@@ -35,3 +35,16 @@ export function LinkedinIcon(props: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
+
+export function FigmaIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 2a4 4 0 0 0-4 4 4 4 0 0 0-4 4 4 4 0 0 0 4 4v4a4 4 0 1 0 4-4v-4a4 4 0 1 0 0-8Zm-4 2h4a2 2 0 1 1 0 4H8a2 2 0 1 1 0-4Zm0 6h4a2 2 0 1 1 0 4H8a2 2 0 1 1 0-4Zm0 6a2 2 0 1 1 2 2 2 2 0 0 1-2-2Zm6-10a2 2 0 1 1 2 2 2 2 0 0 1-2-2Zm0 6a2 2 0 1 1 2 2 2 2 0 0 1-2 2Z" />
+    </svg>
+  )
+}
