@@ -90,7 +90,7 @@ export const projects: Project[] = [
     title: 'SiRekap',
     description:
       'A personal finance management web application for managing income, expenses, budgeting, and cash flow. Contributed to the development of the Home dashboard and Navigation system, integrating frontend interfaces with backend functionality for a seamless user experience.',
-    image: '/projects/Sirekap.png',
+    image: '/projects/sirekap.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
     role: 'Frontend & Backend Developer',
     github: 'https://github.com/RahmawatiSalsabila/sirekap',
@@ -99,7 +99,7 @@ export const projects: Project[] = [
     title: 'WikiKamus Redesign',
     description:
       'A complete UX redesign of an online dictionary — faster search, cleaner typography, and a reading experience that feels calm and focused.',
-    image: '/projects/WikiKamus.png',
+    image: '/projects/wikikamus.png',
     tech: ['Canva', 'Figma'],
     role: 'UI/UX & Frontend',
     figma: 'https://www.figma.com/design/S3xrZeEAWunGNlHzreaFq2/IMK-KELOMPOK-6?node-id=46-2&t=ndJxaxr2MEI2Vbo8-1',
