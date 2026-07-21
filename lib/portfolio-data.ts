@@ -146,27 +146,19 @@ export type Research = {
 
 export const research: Research[] = [
   {
-    title: 'Gamification in TOEFL Preparation: Impact on Learner Motivation',
+    title: 'Immersive TOEFL Preparation in the Metaverse: Usability and Navigability of a Roblox-Based Game Developed via GDLC',
     description:
-      'An empirical study measuring how game mechanics — points, streaks, and leaderboards — affect motivation and retention among TOEFL learners.',
-    keywords: ['Gamification', 'EdTech', 'Motivation', 'Assessment'],
+      'An R&D study developing a Roblox-based TOEFL learning game using the Game Development Life Cycle (GDLC) and evaluating its usability and navigability through formative evaluation. The results show high user satisfaction and demonstrate the effectiveness of immersive game-based learning for TOEFL preparation.',
+    keywords: ['Roblox', 'TOEFL', 'Metaverse', 'Game-Based Learning', 'GDLC'],
     status: 'Published',
-    year: '2024',
+    year: '2026',
   },
   {
-    title: 'Designing Accessible E-Learning Interfaces for Young Learners',
+    title: 'The Transformation of Teachers Digital Competence in Online Learning: Analysis of Success Factors and Implementation Challenges',
     description:
-      'Exploring UI/UX principles that improve accessibility and comprehension in educational web apps built for children.',
-    keywords: ['Accessibility', 'UI/UX', 'E-Learning', 'Child-Centered Design'],
-    status: 'Under Review',
-    year: '2024',
-  },
-  {
-    title: 'Laravel-Based Information Systems for School Administration',
-    description:
-      'A case study on building maintainable, secure school administration systems using the Laravel framework and MySQL.',
-    keywords: ['Laravel', 'Information Systems', 'Software Engineering'],
-    status: 'In Progress',
+      'A systematic literature review analyzing the transformation of teachers digital competence in online and blended learning. The study identifies key success factors, implementation challenges, and dominant frameworks such as TPACK and DigCompEdu for effective technology integration in education.',
+    keywords: ['Online Learning', 'Systematic Literature Review', 'Teacher Digital Competence', 'TPACK'],
+    status: 'Published',
     year: '2025',
   },
 ]
@@ -181,36 +173,20 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    role: 'Web Developer Intern',
-    organization: 'Digital Solutions Studio',
-    period: 'Jun 2024 — Dec 2024',
-    type: 'Internship',
-    description:
-      'Built and maintained client web applications with Laravel and Tailwind CSS, collaborating with designers to ship responsive, accessible interfaces.',
-  },
-  {
-    role: 'Freelance Web Developer',
-    organization: 'Self-Employed',
-    period: '2023 — Present',
-    type: 'Freelance',
-    description:
-      'Delivered custom websites and booking systems for small businesses, handling everything from design to deployment.',
-  },
-  {
-    role: 'Head of Tech Division',
-    organization: 'Student Information Systems Association',
-    period: '2023 — 2024',
+    role: 'Head of Entrepreneurship & Sponsorship Department',
+    organization: 'HIMA PSTI',
+    period: '2024 – 2025',
     type: 'Organization',
     description:
-      'Led a team of student developers, organized coding workshops, and mentored peers on web development fundamentals.',
+    'Managed departmental programs, coordinated sponsorship partnerships, led fundraising initiatives, and collaborated with student committees to support organizational activities.',
   },
   {
-    role: 'Speaker — Intro to Web Development',
-    organization: 'Campus Tech Week',
-    period: 'Oct 2023',
+    role: 'Head of Sponsorship Division',
+    organization: 'MIKASI ESTIFEST 2025 - HIMA PSTI',
+    period: '2025',
     type: 'Event',
     description:
-      'Delivered a hands-on session introducing HTML, CSS, and JavaScript to over 80 first-year students.',
+      'Led the Sponsorship Division by securing partnerships, communicating with potential sponsors, preparing sponsorship proposals, and coordinating sponsorship activities to support the successful execution of MIKASI 2025.',
   },
 ]
 
@@ -221,10 +197,29 @@ export type Certificate = {
 }
 
 export const certificates: Certificate[] = [
-  { title: 'Web Development Fundamentals', issuer: 'Dicoding Academy', image: '/certificates/cert-web.png' },
-  { title: 'Laravel Backend Development', issuer: 'BuildWithAngga', image: '/certificates/cert-laravel.png' },
-  { title: 'UI/UX Design Workshop', issuer: 'Figma Community', image: '/certificates/cert-uiux.png' },
-  { title: 'Educational Technology Seminar', issuer: 'State University', image: '/certificates/cert-teaching.png' },
-  { title: 'Database Management with MySQL', issuer: 'Coursera', image: '/certificates/cert-database.png' },
-  { title: 'Git & Version Control', issuer: 'GitHub Education', image: '/certificates/cert-git.png' },
+  {
+    title: 'Apple Teacher',
+    issuer: 'Apple Education',
+    image: '/certificates/sertifikat-apple-teacher.png',
+  },
+  {
+    title: 'AI-Powered Digital Marketing for Entrepreneurs',
+    issuer: 'Digital Entrepreneurship Academy (Komdigi)',
+    image: '/certificates/sertifikat-digital-entrepreneurship.png',
+  },
+  {
+    title: 'Chat Application for Beginner Entrepreneurs',
+    issuer: 'Digital Talent Scholarship (Komdigi)',
+    image: '/certificates/sertifikat-digitalent.png',
+  },
+  {
+    title: 'Microsoft Online Course Workshop',
+    issuer: 'Microsoft & Virtual Edu Academy',
+    image: '/certificates/sertifikat-online-course-microsoft.png',
+  },
+  {
+    title: 'Intro to Digital Marketing',
+    issuer: 'RevoU',
+    image: '/certificates/sertifikat-digital-marketing.png',
+  },
 ]
