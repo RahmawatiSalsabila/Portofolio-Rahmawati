@@ -11,7 +11,7 @@ import { GithubIcon, LinkedinIcon } from '@/components/site/brand-icons'
 const socials = [
   { label: 'GitHub', href: profile.github, icon: GithubIcon },
   { label: 'LinkedIn', href: profile.linkedin, icon: LinkedinIcon },
-  { label: 'Email', href: `mailto:${profile.email}`, icon: Mail },
+  { label: 'Email', href: `https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`, icon: Mail },
 ]
 
 export function Hero() {

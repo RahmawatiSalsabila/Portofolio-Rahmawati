@@ -47,22 +47,72 @@ export type SkillCategory = {
 }
 
 export const skillCategories: SkillCategory[] = [
-  { title: 'Frontend',
-    skills: [ 'HTML', 'CSS', 'JavaScript', 'Chart.js'],
+  {
+    title: 'Frontend',
+    skills: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Tailwind CSS',
+      'Chart.js',
+    ],
   },
-  { title: 'Backend',
-    skills: [ 'PHP'],
+  {
+    title: 'Backend',
+    skills: [
+      'PHP',
+      'Node.js',
+    ],
   },
-  { title: 'Database',
-    skills: [ 'MySQL'],
+  {
+    title: 'Database',
+    skills: [
+      'MySQL',
+    ],
   },
-  { title: 'Research & Data',
-    skills: ['Microsoft Excel', 'SPSS', 'Biblioshiny', 'VOSviewer'],
+  {
+    title: 'Networking',
+    skills: [
+      'Cisco Packet Tracer',
+      'GNS3',
+      'MikroTik RouterOS',
+    ],
   },
-  { title: 'Tools',
-    skills: [ 'Git', 'GitHub', 'VS Code', 'Figma', 'Canva', 'XAMPP', 'Microsoft Word', 'Microsoft PowerPoint'],
+  {
+    title: 'Research & Data',
+    skills: [
+      'Microsoft Excel',
+      'SPSS',
+      'RStudio',
+      'Biblioshiny',
+      'VOSviewer',
+    ],
   },
-];
+  {
+    title: 'Tools',
+    skills: [
+      'VS Code',
+      'Git',
+      'GitHub',
+      'Vercel',
+      'XAMPP',
+      'Figma',
+      'Canva',
+      'Microsoft Word',
+      'Microsoft PowerPoint',
+    ],
+  },
+  {
+  title: 'Game Development',
+  skills: [
+    'Roblox Studio',
+    'Unity',
+  ],
+  },
+]
 
 export type Project = {
   title: string
@@ -83,8 +133,7 @@ export const projects: Project[] = [
     image: '/projects/Roblox.png',
     tech: ['Roblox Studio', 'Lua', 'Canva'],
     role: 'Game Developer',
-    github: 'https://github.com/RahmawatiSalsabila/toefl-arena',
-    demo: 'https://toefl-arena.example.com',
+    demo: 'https://www.roblox.com/share?code=dd7d9113e3978943bbb9a457827d444d&type=ExperienceDetails&stamp=1784629792306',
   },
   {
     title: 'SiRekap',
@@ -93,7 +142,7 @@ export const projects: Project[] = [
     image: '/projects/sirekap.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
     role: 'Frontend & Backend Developer',
-    github: 'https://github.com/RahmawatiSalsabila/sirekap',
+    github: 'https://github.com/RahmawatiSalsabila/SiRekap',
   },
   {
     title: 'WikiKamus Redesign',

@@ -16,7 +16,7 @@ type Channel = {
 }
 
 const channels: Channel[] = [
-  { label: 'Email', value: profile.email, href: `mailto:${profile.email}`, icon: Mail },
+  { label: 'Email', value: profile.email, href: `https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`, icon: Mail },
   { label: 'GitHub', value: '@salsabila-dev', href: profile.github, icon: GithubIcon },
   { label: 'LinkedIn', value: 'Salsabila Rahmawati', href: profile.linkedin, icon: LinkedinIcon },
 ]
@@ -79,12 +79,14 @@ export function Contact() {
               </div>
 
               <a
-                href={`mailto:${profile.email}`}
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-8 inline-flex items-center gap-2 rounded-xl bg-primary-foreground px-6 py-3.5 text-sm font-semibold text-primary transition-transform hover:scale-[1.03] active:scale-95"
-              >
+               >
                 <Mail className="h-4 w-4" />
                 Send me an email
-              </a>
+             </a>
             </div>
           </div>
         </Reveal>
