@@ -205,7 +205,7 @@ export const certificates: Certificate[] = [
   {
     title: 'AI-Powered Digital Marketing for Entrepreneurs',
     issuer: 'Digital Entrepreneurship Academy (Komdigi)',
-    image: '/certificates/sertifikat-digital-entrepreneurship.png',
+    image: '/certificates/test.png',
   },
   {
     title: 'Chat Application for Beginner Entrepreneurs',
