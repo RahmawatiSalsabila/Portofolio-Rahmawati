@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Rahmawati Salsabila',
-  role: 'Software Engineer & Information Systems Education Student',
+  role: 'Information Systems Education Student',
   shortIntro:
     'I design and build elegant, human-centered web experiences — blending clean engineering with a deep passion for education and technology.',
   email: 'rahmawatisalsabila84@gmail.com',
