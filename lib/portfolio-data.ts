@@ -254,7 +254,7 @@ export const certificates: Certificate[] = [
   {
     title: 'MikroTik Certified Network Associate',
     issuer: 'Mikrotikls SIA',
-    image: '/certificates/sertifikat-MTCNA.png',
+    image: '/certificates/sertifikat-MTCNA.jpg',
   },
   {
     title: 'AI-Powered Digital Marketing for Entrepreneurs',
