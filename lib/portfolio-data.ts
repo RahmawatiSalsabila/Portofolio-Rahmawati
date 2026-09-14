@@ -252,6 +252,11 @@ export const certificates: Certificate[] = [
     image: '/certificates/sertifikat-apple-teacher.png',
   },
   {
+    title: 'MikroTik Certified Network Associate',
+    issuer: 'Mikrotikls SIA',
+    image: '/certificates/sertifikat-MTCNA.png',
+  },
+  {
     title: 'AI-Powered Digital Marketing for Entrepreneurs',
     issuer: 'Digital Entrepreneurship Academy (Komdigi)',
     image: '/certificates/test.png',
