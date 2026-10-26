@@ -237,6 +237,38 @@ export const experiences: Experience[] = [
     description:
       'Led the Sponsorship Division by securing partnerships, communicating with potential sponsors, preparing sponsorship proposals, and coordinating sponsorship activities to support the successful execution of MIKASI 2025.',
   },
+  {
+    role: 'Medical Staff',
+    organization: 'PSTI Student Regeneration and Orientation - HIMA PSTI',
+    period: '2025',
+    type: 'Event',
+    description:
+      'Served as medical staff during the PSTI Student Regeneration and Orientation event held at UPI Purwakarta Campus and Villa Wanakula, Wanayasa. Assisted in providing first aid, ensuring the safety and well-being of participants, and supporting the event’s medical preparedness.',
+  },
+  {
+    role: 'Consumption Staff',
+    organization: 'SOSPRO 2025 - HIMA PSTI',
+    period: '2025',
+    type: 'Event',
+    description:
+      'Contributed to the consumption team during SOSPRO 2025, a student social project organized by HIMA PSTI.',
+  },
+  {
+    role: 'Staff of Sponsorship Division',
+    organization: 'MIKASI ESTIFEST 2024 - HIMA PSTI',
+    period: '2024',
+    type: 'Event',
+    description:
+      'Contributed as Staff of Sponsorship Division during MIKASI ESTIFEST 2024, held under the theme Harmony of Nusantara: Moving Forward Together in Modern Creativity.',
+  },
+  {
+    role: 'Consumption Staff',
+    organization: 'BERLIAN 2024 - HIMA PSTI',
+    period: '2024',
+    type: 'Event',
+    description:
+      'Supported event operations as part of the consumption team for BERLIAN 2024, organized by HIMA PSTI UPI Purwakarta.',
+  },
 ]
 
 export type Certificate = {
@@ -254,7 +286,7 @@ export const certificates: Certificate[] = [
   {
     title: 'MikroTik Certified Network Associate',
     issuer: 'Mikrotikls SIA',
-    image: '/certificates/sertifikat-MTCNA.jpg',
+    image: '/certificates/sertifikat-mtcna.png',
   },
   {
     title: 'AI-Powered Digital Marketing for Entrepreneurs',
